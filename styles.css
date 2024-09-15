@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .feature {
+    margin: 20px 0;
+  }
+  
+  .feature img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    header nav {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header nav a {
+      margin: 5px 0;
+    }
+  }
